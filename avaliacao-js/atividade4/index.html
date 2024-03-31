@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Atividade 4</title>
+</head>
+
+<body>
+<div class="mouse">
+  <p>PASSE O MOUSE PELA IMAGEM</p>
+
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="/atividade4/gato.jpg" alt="Smiley" width="32" height="32">
+</div>
+
+<div class="nome">
+  <p>Escreva seu nome!!</p> 
+  <input type="text" onfocus="myFunction(this)">
+</div>
+
+<div class="cor">
+  <p>Selecione uma cor</p>
+
+<select id="selecionar" onchange="myFunction()">
+  <option value="Azul">Azul</option>
+  <option value="rosa">rosa</option>
+  <option value="roxo">roxo</option>
+  <option value="amarelo">amarelo</option>
+</select>
+
+<p id="demo"></p>
+</div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

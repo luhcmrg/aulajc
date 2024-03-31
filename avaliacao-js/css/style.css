@@ -1,0 +1,54 @@
+  * {
+    margin: 0;
+    background-color: #ffd8ef;
+    }
+  
+  h1{
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+.mouse {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.nome {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cor {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#contador {
+  font-size: 25px;
+  margin: 20px;
+}
+
+#botao {
+  font-size: 20px;
+  margin: 10px;
+
+}
+
+#resultado {
+  margin: 15px;
+}
+
+input {
+  margin: 10px;
+}
+
+.funcao {
+  display: flex;
+  gap: 15px;
+  margin: 10px;
+  
+}
